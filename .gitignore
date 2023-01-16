@@ -1,0 +1,57 @@
+.idea/*
+.env
+.vscode/*
+.phive/tools/*
+# Created by .ignore support plugin (hsz.mobi)
+### Composer template
+/vendor/*
+vendor/*
+/vendor/
+vendor/
+config/configs
+# Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+/web/css/main.css
+/tests/**.suite.yml
+/tests/_output/*
+/tests/_data/cache
+/tests/_support/_generated/*
+
+/config/ConfiguracaoEproc*.php
+
+# Ignora diretórios da Infra que são transferidos via composer para o vendor, mas as pastas de css e js são necessárias
+# dentro do web para o funcionamento da aplicação.
+web/css/dist
+web/js/dist
+web/infra_css
+web/infra_js
+web/modulos
+.gitmodules
+
+
+
+# Eclipse
+/.settings/
+/.buildpath
+/.project
+
+# NetBeans
+nbproject
+
+# Arquivo de verso gerado no deploy
+/web/versao.txt
+sqlnet.log
+.yarn/
+.pnp
+.pnp.js
+node_modules/
+/web/node_modules/
+yarn-error.log
+auth.json
+cghooks.lock
+.phplint-cache
+.phpcs-cache.json
+.phpcs-report*
+/web/ws/cliente/ConfiguracaoEproctst1g.php
+*.DS_Store
